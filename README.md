@@ -31,7 +31,7 @@ policy, V = value_iteration(S, A, transition_probabilities, rewards, gamma=0.9, 
 print("Optimal Policy:", policy)
 print("Value Function:", V)
 ```
-The package also includes a flexible way of easily constructing and rectangular gridworld problem for solving with the value iteration algroithm. The user needs only to input the grid height, the grid width, the number of possible actions, the penalty for hitting the boundary, and the reward sizes and coordinates. The package can transform this data into the correct form for inputting into the value iteration algorithm. An example for a 10x10 grid is shown below in Example 2.
+The package also includes a flexible way of easily constructing and rectangular gridworld problem for solving with the value iteration algorithm. The user needs only to input the grid height, the grid width, the number of possible actions, the penalty for hitting the boundary, and the reward sizes and coordinates. The package can transform this data into the correct form for inputting into the value iteration algorithm. An example for a 10x10 grid is shown below in Example 2.
 
 ## Example 2: The n x m gridworld problem
 ```python

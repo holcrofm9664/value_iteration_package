@@ -48,7 +48,7 @@ boundary_penalty = -1.0  # penalty for bumping into walls
 
 # define the states and actions
 S = np.arange(num_states)  # state space
-A = np.array([0, 1, 2, 3])  # actions: 0 = up, 1 = down, 2 = left, 3 = right
+A = np.arange(num_actions)  # actions: 0 = up, 1 = down, 2 = left, 3 = right
 
 # create transition probability matrix (choosing the probability of moving in the intended direction = 0.7)
 transition_probabilities = compute_transition_probabilities(grid_height, grid_width, p=0.7)

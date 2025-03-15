@@ -4,13 +4,9 @@ The Value_Iteration package provides an algorithm for approximately solving a ra
 
 ## Installing from github with pip:
 
-<<<<<<< HEAD
 ```bash
-pip install git+https://github.com/holcrofm9664/value_iteration.git
+pip install git+https://github.com/holcrofm9664/value_iteration_package.git
 ```
-=======
-python -m pip install 'git+https://github.com/#fill in the rest here'
->>>>>>> 8c99758 (Initial Commit For Value Iteration Package)
 
 ## Example 1: Solving the Health Party Problem
 ```python

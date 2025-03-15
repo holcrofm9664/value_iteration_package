@@ -68,8 +68,4 @@ rewards = compute_rewards(state_rewards, boundary_penalty, transition_probabilit
 optimal_policy = value_iteration(S, A, transition_probabilities, rewards, threshold=0.0001, max_iterations=1000)
 
 # display results
-<<<<<<< HEAD
 optimal_policy
-=======
-optimal_policy
->>>>>>> 8c99758 (Initial Commit For Value Iteration Package)

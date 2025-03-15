@@ -1,43 +1,10 @@
-<<<<<<< HEAD
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-[project]
-name = "Value_Iteration"
-version = "1.0.0"
-maintainers = [
-  { name="Mark Holcroft", email="m.holcroft@lancaster.ac.uk" },
-]
-authors = [
-  { name="Mark Holcroft", email="m.holcroft@lancaster.ac.uk"},
-]
-description = "A package that allows the user to implement the value iteration algorithm to find approximately optimal solutions to Markov Decision Processes (MDPs)."
-readme = "README.md"
-requires-python = ">=3.0.0"
-keywords = ["MDP", "Value Iteration", "Reinforcement Learning", "Grid World", "Optimisation"]
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-    "Operating System :: OS Independent",
-]
-dependencies = [
-    "numpy>=1.21"
-]
-
-[project.urls]
-Homepage = "https://github.com/holcrofm9664/value_iteration"
-Repository = "https://github.com/holcrofm9664/value_iteration"
-Documentation = "https://github.com/holcrofm9664/value_iteration#readme"
-Issues = "https://github.com/holcrofm9664/value_iteration/issues"
-=======
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "value_iteration"
-version = "0.1.0"
+name = "value_iteration_package"
+version = "1.0.0"
 maintainers = [
   { name="Mark Holcroft", email="m.holcroft@lancaster.ac.uk" },
 ]
@@ -61,6 +28,6 @@ dependencies = [
 packages = ["Value_Iteration"]
 
 [project.urls]
-Homepage = "https://github.com/your-repo"  # NEED TO CHANGE WHEN I PUT IT UP
-Documentation = "https://github.com/your-repo/docs"  # ALSO CHANGE THIS
->>>>>>> 8c99758 (Initial Commit For Value Iteration Package)
+Homepage = "https://github.com/holcrofm9664/value_iteration_package"
+Documentation = "https://github.com/holcrofm9664/value_iteration_package#readme"
+
